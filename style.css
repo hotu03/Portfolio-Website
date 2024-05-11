@@ -280,35 +280,6 @@ section .title::after {
   color: #ff9700; /* Đổi màu cho biểu tượng Facebook khi di chuột vào */
 }
 
-/* Css cho biểu tượng Zalo*/
-
-.zalo-icon {
-  display: inline-flex; /* Sử dụng flexbox để căn giữa biểu tượng */
-  align-items: center; /* Căn giữa theo chiều dọc */
-  justify-content: center; /* Căn giữa theo chiều ngang */
-  margin-right: 10px;
-  margin-block-start: 20px;
-  width: 40px; /* Điều chỉnh kích thước biểu tượng */
-  height: 40px; /* Điều chỉnh kích thước biểu tượng */
-  background: #ff9700; /* Màu nền cho biểu tượng */
-  border-radius: 50%; /* Tạo hình dạng tròn */
-  border: 2px solid #ff9700; /* Đường viền màu #ff9700 */
-  transition: all 0.3s ease;
-}
-
-.zalo-icon:hover {
-  background: none; /* Loại bỏ màu nền khi di chuột vào */
-}
-
-.zalo-icon i {
-  color: #fff; /* Màu cho biểu tượng Facebook */
-  font-size: 5px; /* Kích thước cho biểu tượng Facebook */
-  padding: 5px 5px; /* Điều chỉnh khoảng cách bên trong biểu tượng Facebook và viền */
-}
-
-.zalo-icon:hover i {
-  color: #ff9700; /* Đổi màu cho biểu tượng Facebook khi di chuột vào */
-}
 
 /* about section styling */
 
