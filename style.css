@@ -258,6 +258,7 @@ section .title::after {
   align-items: center; /* Căn giữa theo chiều dọc */
   justify-content: center; /* Căn giữa theo chiều ngang */
   margin-right: 10px;
+  margin-top: 20px;
   vertical-align: middle;
   width: 40px; /* Điều chỉnh kích thước biểu tượng */
   height: 40px; /* Điều chỉnh kích thước biểu tượng */
@@ -288,6 +289,7 @@ section .title::after {
   align-items: center; /* Căn giữa theo chiều dọc */
   justify-content: center; /* Căn giữa theo chiều ngang */
   margin-right: 10px;
+  margin-top: 20px;
   vertical-align: middle;
   width: 40px; /* Điều chỉnh kích thước biểu tượng */
   height: 40px; /* Điều chỉnh kích thước biểu tượng */
@@ -549,6 +551,8 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
+
+
 .portfolio .carousel .card img {
   height: 150px;
   width: 150px;
@@ -564,6 +568,8 @@ section .title::after {
 
 .portfolio .carousel .card .download-btn {
   display: inline-block;
+  text-decoration: none; /* loại bỏ gạch chân mặc định */
+  vertical-align: middle; /* căn chỉnh theo chiều dọc */
   background-color: #ff9700;
   color: #fff;
   margin-top: 10px;
@@ -572,6 +578,15 @@ section .title::after {
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
+}
+.portfolio .carousel .card .download-btn .fa-download {
+  margin-right: 5px; /* Khoảng cách giữa icon và chữ */
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.portfolio .carousel .card .download-btn .download-text {
+  margin-left: 5px; /* Khoảng cách giữa icon và chữ */
 }
 
 .portfolio .carousel .card:hover .download-btn {
