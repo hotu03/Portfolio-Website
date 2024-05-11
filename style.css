@@ -297,23 +297,18 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.home .home-content .zalo-icon {
-  background: #ff9700;
-  border: 2px solid #ff9700;
-}
-
 .home .home-content .zalo-icon:hover {
-  background: #fff;
+  background: #ffffff;
   border-color: #ff9700;
 }
 
 .home .home-content .zalo-icon svg path.fill-0180c7 {
-  fill: #ff9700;
+  fill: #ffffff;
   transition: fill 0.3s ease;
 }
 
 .home .home-content .zalo-icon:hover svg path.fill-0180c7 {
-  fill: #fff;
+  fill: #ff9700;
 }
 
 /* about section styling */
@@ -510,11 +505,11 @@ section .title::after {
 }
 
 .skills-content .right .php::before {
-  width: 70%;
+  width: 50%;
 }
 
 .skills-content .right .mysql::before {
-  width: 80%;
+  width: 60%;
 }
 
 /* portfolio section styling */
