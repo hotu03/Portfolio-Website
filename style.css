@@ -62,7 +62,7 @@ th {
 .about,
 .services,
 .skills,
-.teams,
+.portfolio,
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
@@ -372,21 +372,22 @@ section .title::after {
 /* services section styling */
 
 .services,
-.teams {
+.portfolio {
   color: #fff;
   background: #111;
 }
 
 .services .title::before,
-.teams .title::before {
+.portfolio .title::before {
   background: #fff;
 }
 
 .services .title::after,
-.teams .title::after {
+.portfolio .title::after {
   background: #111;
   content: "WHAT I PROVIDE";
 }
+
 
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -516,13 +517,13 @@ section .title::after {
   width: 80%;
 }
 
-/* teams section styling */
+/* portfolio section styling */
 
-.teams .title::after {
-  content: "who with me";
+.portfolio .title::after {
+  content: "WHAT I DO";
 }
 
-.teams .carousel .card {
+.portfolio .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -531,11 +532,11 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.portfolio .carousel .card:hover {
   background: #ff9700;
 }
 
-.teams .carousel .card .box {
+.portfolio .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -543,28 +544,51 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.portfolio .carousel .card:hover .box {
   transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.portfolio .carousel .card .text {
   font-size: 23px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.portfolio .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 5px solid #ff9700;
   transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.portfolio .carousel .card:hover img {
   border-color: #fff;
 }
+
+.portfolio .carousel .card .download-btn {
+  display: inline-block;
+  background-color: #ff9700;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px solid #ff9700;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio .carousel .card:hover .download-btn {
+  border-color: #fff; /* Màu border trắng */
+}
+
+.portfolio .carousel .card .download-btn:hover {
+  background-color: #fff;
+  color: #ff9700;
+  border-color: #ff9700;
+}
+
 
 .owl-dots {
   text-align: center;
