@@ -618,7 +618,7 @@ section .title::after {
 /* contact section styling */
 
 .contact .title::after {
-  content: "get in touch";
+  content: " GET IN TOUCH";
 }
 
 .contact .contact-content .column {
